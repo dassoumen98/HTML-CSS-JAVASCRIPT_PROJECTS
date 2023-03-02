@@ -1,0 +1,53 @@
+@media screen and (max-width:800px) {
+    :root{
+        --primary-color: #04ddb2;
+        --secondary-color:#333;
+        --off-white:#fff;
+        --off-gray:#767676;
+        --padding-inline-section:20px
+    }
+    
+
+    
+   .nav-list, .button{
+    display: none;
+   }
+  .nav i{
+    color:var(--primary-color);
+   }
+  }
+@media screen and (max-width :710px) {
+    .container{
+        max-width: 100%;
+        margin-inline:auto ;
+        padding-inline: var(--padding-inline-section);
+    }
+   
+    h1{
+        font-size: 2rem;
+    }
+    
+   
+
+    .heading-section p{
+        font-size: 1rem;
+       
+    }
+
+    .footer{
+        /* flex-direction: column; */
+        
+        justify-content: space-evenly;
+    
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    .icon{
+        flex-direction: column;
+    }
+
+    
+    
+   
+  }
+
