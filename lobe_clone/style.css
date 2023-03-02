@@ -100,7 +100,16 @@ li{
 
 .nav img{
     width:80px;
+    
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -117,12 +126,13 @@ li{
     flex-direction: column;
     gap: 20px;
     margin-block: 20px;
+    width: 100%;
     
 }
 
 .heading-section p{
     font-size: 1.5rem;
-    width: 700px;
+    
 } 
 
 .video-section img{
@@ -144,10 +154,11 @@ li{
     flex-direction: column;
     gap: 20px;
     margin-block: 20px;
+    width: 100%;
 }
-.second-heading h1{
-    width: 450px;
-}
+
+
+
 
 hr { 
     display: block;
@@ -169,6 +180,7 @@ hr {
   .footer{
     justify-content: space-evenly;
     margin-block: 50px;
+    width: 100%;
     
   }
 
@@ -176,6 +188,7 @@ hr {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+    
   }
 
   .icon{
@@ -198,4 +211,104 @@ i{
     text-align: center;
     
 }
+
+
+/* animation part
+
+/* logo animation */
+
+.nav img{
     
+    animation: slide-left 1s linear forwards;
+    opacity: 0;
+}
+
+
+
+@keyframes slide-left {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
+/* button */
+
+.button .primary-button{
+    animation: slide-right 1s linear forwards;
+    opacity: 0;
+}
+    
+@keyframes slide-right {
+    from{
+        transform: translateX(100px);
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+
+/* nav items */
+.nav-list li a{
+
+    animation: down-fall 400ms linear forwards;
+    opacity: 0;
+
+}
+
+
+
+
+@keyframes down-fall {
+    from{
+        transform: translatey(-100px);
+    }
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+    
+}
+
+/* heading section */
+.heading-section h1  {
+    animation: down-fall-head 900ms linear forwards;
+    opacity: 0;
+    animation-delay: 0.8s;
+
+
+}
+.heading-section p{
+    animation: down-fall-head 900ms linear forwards;
+    opacity: 0;
+
+   animation-delay: 0.9s;
+
+
+}
+@keyframes down-fall-head {
+    from{
+        transform: translatey(-100px);
+    }
+    to{
+        transform: translatey(0px);
+        opacity: 1;
+    }
+    
+}
+
+/* video section */
+.video-section{
+    animation: down-fall-head 900ms linear forwards;
+    opacity: 0; 
+    animation-delay: 1.2s;
+
+
+} 
+
