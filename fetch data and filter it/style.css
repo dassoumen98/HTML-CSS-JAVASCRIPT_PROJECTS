@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.live-filter{
+    width: 25rem;
+    box-shadow: 1rem 1rem 2rem 1rem rgb(0, 0, 0,0.3);
+    border-radius: 10px;
+    margin: 3rem 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.search{
+    background-color: #432c7a;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding-block: 30px;
+}
+.search p:first-child{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.search input{
+    padding: 8px 25px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    
+}
+:placeholder-shown{
+    text-transform: capitalize;
+}
+
+.user-info{
+    padding: 2px;
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.user-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   
+    width: 350px;
+    margin-inline:20px ;
+    
+
+    
+}
+
+.user-data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: #dbd1f6;
+    box-shadow: 0px 0px 5px 1px #c7c7c7;
+    width: 350px;
+    height: 100px;
+    border-radius: 5px;
+    padding-inline: 5px;
+
+
+    
+
+}
+.user-data img{
+
+    width:70px;
+    height: 70px;
+    border-radius:50%;
+    border: 3px dashed yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-data p{
+
+    text-transform: capitalize;
+}
+
+.hide{
+    display: none;
+}
