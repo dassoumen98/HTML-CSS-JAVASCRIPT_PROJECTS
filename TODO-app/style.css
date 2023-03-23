@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9333ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 4px;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 5px 2px #818181;
+
+
+}
+
+.input-box{
+    margin-block:20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+
+}
+
+.input-box input{
+    outline: none;
+    padding: 5px 15px;
+    width: 90%;
+    font-size: 1rem;
+}
+.input-box i{
+    border: 1px solid;
+    padding: 8px 10px;
+    background-color:#22c55e;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+   
+}
+
+.input-box i:hover{
+    background-color:#15803d;
+    color:white;
+
+}
+
+
+/* output box */
+
+
+/* show items */
+.show-items{
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+    /* flex-direction: column; */
+    margin-block: 8px;
+    
+
+}
+.show-items li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+    width: 90%;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius:2px;   
+    cursor: pointer;
+   
+  
+    
+}
+
+.show-items i{
+    border: 1px solid;
+    padding: 8px 10px;
+    background-color:#ef4444;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    
+   
+}
+
+.show-items i:hover{
+    background-color:#b91c1c;
+    color:white;
+
+}
+
+
+.show-items li.done{
+    background-color:rgb(161, 159, 159);
+    border: none;
+    text-decoration: line-through;
+    color: white;
+    user-select: none;
+    transition: all 0.1s;
+    
+
+}
+
+.clear-btn{
+    border: none;
+    background-color: #9333ea;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1rem;
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.clear-btn:hover{
+    background-color: #6b21a8;
+
+}
+
+
