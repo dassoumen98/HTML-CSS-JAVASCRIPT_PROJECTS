@@ -9,6 +9,7 @@
 | 4   |              [Animated FAQ Section](https://soumen-faq-section.netlify.app/)              |
 | 5   |              [TODO-app](https://soumen-todo-app.netlify.app/)              |
 | 6   |              [Dad_Jokes](https://cerulean-belekoy-7a44c4.netlify.app/)              |
+| 7   |              [Weather-App](https://weather-app-soumen.netlify.app/)              |
 
 
      
