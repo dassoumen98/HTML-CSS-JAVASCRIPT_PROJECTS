@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(2,0,36); */
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    font-family: 'Lato', sans-serif;
+    
+    }
+.container{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px ;
+}
+.btn{
+    padding: 8px 15px;
+    border: none;
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+
+}
+
+.joke{
+    margin: 0 5px;
+    padding: 0 10px;
+    /* border: 1px solid; */
+    text-align: center;
+}
