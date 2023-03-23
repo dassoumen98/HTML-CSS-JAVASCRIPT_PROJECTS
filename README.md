@@ -7,6 +7,7 @@
 | 2   |                       [search bar](https://soumen-search.netlify.app/)                       |
 | 3   |    [fetch data and filter it](https://soumen-filter.netlify.app/)    |
 | 4   |              [Animated FAQ Section](https://soumen-faq-section.netlify.app/)              |
+| 5   |              [TODO-app](https://soumen-todo-app.netlify.app/)              |
 
 
      
