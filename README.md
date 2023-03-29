@@ -11,6 +11,7 @@
 | 6   |              [Dad_Jokes](https://cerulean-belekoy-7a44c4.netlify.app/)                              |
 | 7   |              [Weather-App](https://weather-app-soumen.netlify.app/)                                 |
 | 8   |              [Typing Speed Test](https://soumen-typing-test.netlify.app/)                           |
+| 9   |              [English Dictionary App ](https://soumen-dictionary.netlify.app/)                      |
 
 
      
